@@ -1,0 +1,21 @@
+@import url(../js/fonts/icomoon/style.css);
+body {margin: 0px;background-image: url(../img/bg.jpg);background-repeat: no-repeat;background-size: cover;font-family: 'Lato', sans-serif;color: #fff;min-width: 320px;}
+h1:hover i,
+h1:focus i,
+h1:active i {color: #1a7089;}
+h1 {background-color: rgba(0,0,0,0.5);display: inline-block;width: auto;padding: 5px 15px;margin:40px 20px;font-size: 48px;}
+ul {padding: 0;margin:40px 0 0;}
+li {margin:0 20px 20px;font-size: 16px;list-style: none;}
+a:link,
+a:visited {color: #fff;text-decoration: none;background-color: rgba(0,0,0,0.5);display: inline-block;width: auto;padding: 5px 15px;}
+a:focus,
+a:hover,
+a:active {background-color: rgba(1, 152, 117, 0.5);}
+a i {margin-right: 10px;font-size: 28px;vertical-align: middle;display: inline-block;}
+
+@media only screen and (min-width: 480px) {
+  h1 {margin: 100px;font-size: 48px;}
+  ul {margin: 100px 0 0;}
+  li {margin: 0 0 20px 100px;font-size: 24px;}
+  a i {font-size: 18px;}
+}
